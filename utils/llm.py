@@ -14,8 +14,8 @@ from typing import Any
 from google import genai
 from google.genai import types
 
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-JSON_MODEL = os.getenv("GEMINI_JSON_MODEL", "gemini-2.5-flash")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
+JSON_MODEL = os.getenv("GEMINI_JSON_MODEL", "gemini-2.5-flash-lite")
 
 _client: genai.Client | None = None
 
