@@ -1,0 +1,42 @@
+Priya Ramachandran
+Backend Engineer · Bengaluru · priya.r@email.com · github.com/priya-r
+
+SUMMARY
+Backend engineer with 3.5 years of experience building APIs and data services
+for B2B SaaS. Comfortable in Python and SQL, growing into distributed systems
+and cloud infrastructure. Looking for a role with deeper systems work.
+
+EXPERIENCE
+
+Backend Engineer · Lumenly (B2B analytics SaaS) · Aug 2023 – present
+- Owned the customer-facing reporting API: FastAPI service serving ~200 RPS
+  to 80+ enterprise customers. Migrated it from Flask, cut p95 latency 2.4x.
+- Designed and shipped a tenant-isolation layer in PostgreSQL using row-level
+  security and a routing middleware. Cut data-leak risk surface significantly.
+- Wrote and reviewed a lot of SQL — query optimisation, partitioning a 400M-row
+  events table by tenant_id, fixing N+1s in the ORM.
+- Set up CI with GitHub Actions; introduced contract tests for the public API.
+- Comfortable on AWS (RDS Postgres, ECS Fargate, S3, CloudWatch logs).
+  Have read CloudFormation templates; have not authored a greenfield stack.
+
+Software Engineer · Tessera Health · Jul 2022 – Aug 2023
+- Built a Django + Celery pipeline ingesting clinic data feeds (HL7, CSV).
+  Processed ~50k records/day, with retries and dead-letter handling in Redis.
+- Wrote integration tests against a real Postgres, not mocks.
+- First exposure to Docker — built service images, debugged container networking.
+
+Software Engineer Intern · Tessera Health · Summer 2021
+
+EDUCATION
+B.E. Computer Science · BITS Pilani · 2018-2022
+
+PROJECTS
+- pg_partition_helper (open source, ~120 stars): a small Python CLI for
+  managing native Postgres partitions. Tests, docs, semver releases.
+- Toy ledger in Go: double-entry bookkeeping with idempotent posting.
+  Used to learn Go basics; ~2k LOC.
+
+SKILLS
+Python, FastAPI, Django, PostgreSQL, SQL, Redis, Celery, Docker (basic),
+AWS (RDS, ECS, S3), Git, GitHub Actions, REST APIs, Linux CLI.
+Some exposure to: Go, Kafka (read about, not shipped), gRPC.

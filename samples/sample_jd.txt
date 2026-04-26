@@ -1,0 +1,28 @@
+Senior Backend Engineer — Fintech Platform
+
+About the role
+We're building a high-throughput payments platform processing millions of
+transactions per day. We need a senior backend engineer who can own services
+end-to-end: design, implementation, deployment, and on-call.
+
+Must-have skills
+- 4+ years professional backend experience in Python (FastAPI or Django)
+- Strong PostgreSQL: indexing, query plans, schema design under load
+- REST + gRPC API design, idempotency, versioning
+- Distributed systems fundamentals: caching, queues, eventual consistency
+- Solid system design (you can whiteboard a payments ledger end-to-end)
+- AWS in production (ECS or EKS, RDS, SQS, CloudWatch)
+- Docker and Kubernetes (deploying, debugging, not just running locally)
+- Git workflow, code review, writing testable code
+
+Nice-to-have
+- Experience with Kafka or similar event streaming
+- Familiarity with regulatory environments (PCI DSS, SOC 2)
+- Go or Rust for performance-critical services
+- Observability stacks (Datadog, OpenTelemetry, Prometheus)
+
+Responsibilities
+- Design and ship core payment services
+- Mentor 2-3 mid-level engineers
+- Drive on-call quality and incident response
+- Collaborate with product and compliance on new payment rails
