@@ -39,7 +39,7 @@ echo GEMINI_API_KEY=your_key_here > .env
 streamlit run app.py
 ```
 
-The app opens at <http://localhost:8501>.
+The app opens at <https://suryatejas-deccanai-skill-agent-app-hdbqll.streamlit.app/>.
 
 ### Try it without your own JD/resume
 On the inputs screen, click **"Use sample JD"** and **"Use sample resume"** to load a realistic Senior Backend Engineer pairing.
